@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Crea tu letrero Neón VIGO</title>
+<link rel="stylesheet" type="text/css" href="letrero/css/neon.css">
+<link rel="stylesheet" type="text/css" href="letrero/css/fonts.css">
+<script type="text/javascript" src="letrero/js/neon.js" charset="utf-8"></script>
+</head>
+<body>
+    <p>
+        Ingresa el texto: <input id="txtLetrero" type="text" placeholder="Ejemplo de texto">
+        <br>
+        Elije tipo de letra: 
+        <select id='dpdFuentes'>
+            <option value='' disabled selected>Estilos</option>
+            <option style="font-family: 'adelia';" value="adelia">Adelia</option>
+            <option style="font-family: 'bestoom';" value ="bestoom">Bestoom</option>
+            <option style="font-family: 'blue_style';" value ="blue_style">Blue Style</option>
+            <option style="font-family: 'bubblegum';" value ="bubblegum">Bubblegum</option>
+            <option style="font-family: 'candy_beans';" value ="candy_beans">Candy Beans</option>
+            <option style="font-family: 'cheese_burger';" value ="cheese_burger">Cheese Burger</option>
+            <option style="font-family: 'cheri';" value ="cheri">Cheri</option>
+            <option style="font-family: 'chicken_pie';" value ="chicken_pie">Chicken Pie</option>
+            <option style="font-family: 'emotional_baggage';" value ="emotional_baggage">Emotional Baggage</option>
+            <option style="font-family: 'ghibo_talk';" value ="ghibo_talk">Ghibo Talk</option>
+            <option style="font-family: 'grinched';" value ="grinched">Grinched</option>
+            <option style="font-family: 'grinched2';" value ="grinched2">Grinched2</option>
+            <option style="font-family: 'grobold';" value ="grobold">Grobold</option>
+            <option style="font-family: 'hooey';" value ="hooey">Hooey</option>
+            <option style="font-family: 'misty_style';" value ="misty_style">Misty Style</option>
+            <option style="font-family: 'my_coffe_break';" value ="my_coffe_break">My Coffe Break</option>
+            <option style="font-family: 'pokemon';" value ="pokemon">Pokemon</option>
+            <option style="font-family: 'rhuma_sinera';" value ="rhuma_sinera">Rhuma Sinera</option>
+            <option style="font-family: 'starborn';" value ="starborn">Starborn</option>
+            <option style="font-family: 'super_mario';" value ="super_mario">Super Mario</option>
+            <option style="font-family: 'super_milk';" value ="super_milk">Super Milk</option>
+            <option style="font-family: 'tealand';" value ="tealand">Tealand</option>
+            <option style="font-family: 'toony_line';" value ="toony_line">Toony Line</option>
+            <option style="font-family: 'valoon';" value ="valoon">Valoon</option>
+            <option style="font-family: 'yellow_style';" value ="yellow_style">Yellow Style</option>
+          </select>
+        <br>
+        Selecciona el color: 
+        <input id="txtColor" type="color" />
+          <br>
+        <input id="btnConvertirTextoNeon" type="button" value="Visualizar" onclick="ConvertirNeon()">
+    </p>
+    <div class="letrero" id="txtLetreroNeon" class="button"></div>
+
+</html>
