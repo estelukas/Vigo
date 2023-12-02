@@ -5,6 +5,8 @@
 <link rel="stylesheet" type="text/css" href="letrero/css/neon.css">
 <link rel="stylesheet" type="text/css" href="letrero/css/fonts.css">
 <script type="text/javascript" src="letrero/js/neon.js" charset="utf-8"></script>
+<script type="text/javascript" src="letrero/js/html2canvas.js" charset="utf-8"></script>
+<script type="text/javascript" src="letrero/js/filesaver.js" charset="utf-8"></script>
 </head>
 <body>
     <p>
@@ -46,5 +48,7 @@
         <input id="btnConvertirTextoNeon" type="button" value="Visualizar" onclick="ConvertirNeon()">
     </p>
     <div class="letrero" id="txtLetreroNeon" class="button"></div>
+    <br>
+    <input id="btnGuardarImagen" type="button" value="Enviar" onclick="guardarImagen()">
 
 </html>
